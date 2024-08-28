@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname, "..", "public")));
 // API route that returns demo JSON
 app.get("/api/demo", (req, res) => {
   res.json({
-    message: "This is a demo JSON response",
+    message: "This is a demo JSON response you bum",
     timestamp: new Date().toISOString(),
   });
 });
